@@ -1,0 +1,52 @@
+.markdown {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 13px;
+  border-right: 1.5px solid rgba(15, 15, 15, 0.4);
+  overflow-y: scroll;
+}
+
+.markdown > .title {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 1em;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(15, 15, 15, 0.4);
+}
+
+.markdown > .editor {
+  position: relative;
+  display: inline-flex;
+  line-height: 21px;
+}
+
+.markdown > .editor > .lineNumbers {
+  width: 30px;
+  text-align: right;
+  background: #e8e8e8;
+}
+
+.markdown > .editor > .lineNumbers > span {
+  counter-increment: linenumber;
+}
+
+.markdown > .editor > .lineNumbers > span::before {
+  content: counter(linenumber);
+  display: block;
+  font-size: 14px;
+  padding-right: 4px;
+  color: #aaa;
+}
+
+.markdown > .editor > .textArea {
+  width: 100%;
+  padding-left: 5px;
+  border: none;
+  outline: none;
+  resize: none;
+  line-height: 21px;
+  word-wrap: break-word;
+  overflow-y: hidden;
+}

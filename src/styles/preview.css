@@ -1,0 +1,123 @@
+.preview {
+  width: 50%;
+  padding: 13px;
+  overflow-y: scroll;
+}
+
+.preview > .title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 1em;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(15, 15, 15, 0.4);
+}
+
+.preview > .previewArea {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.preview > .previewArea > .previewText {
+  line-height: 21px;
+  color: #484f55;
+}
+
+.preview > .previewArea > .previewText > * {
+  width: 100%;
+  padding: 0 0 10px 5px;
+}
+
+.preview > .previewArea > .previewText > h1,
+.preview > .previewArea > .previewText > h2 {
+  margin: 20px 0;
+  line-height: 1.25;
+  border-bottom: 1px solid rgba(15, 15, 15, 0.1);
+}
+
+.preview > .previewArea > .previewText > h1 {
+  font-size: 2em;
+}
+
+.preview > .previewArea > .previewText > h2 {
+  font-size: 1.5em;
+}
+
+.preview > .previewArea > .previewText p {
+  margin: 0.75em;
+}
+
+.preview > .previewArea > .previewText > ul,
+.preview > .previewArea > .previewText > ol {
+  padding-left: 2em;
+}
+
+.preview > .previewArea > .previewText > ul > li,
+.preview > .previewArea > .previewText > ol > li {
+  margin: 0.5em;
+}
+
+.preview > .previewArea > .previewText a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.preview > .previewArea > .previewText blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+
+.preview > .previewArea > .previewText > table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  max-width: 40%;
+  min-width: 280px;
+}
+
+.preview > .previewArea > .previewText > table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.preview > .previewArea > .previewText > table th,
+.preview > .previewArea > .previewText > table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.preview > .previewArea > .previewText > table tr:nth-child(even) {
+  background-color: #f6f8fa;
+}
+
+.preview > .previewArea > .previewText pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+.preview > .previewArea > .previewText pre code {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 1.4em;
+  line-height: inherit;
+  border: 0;
+  background-color: initial;
+  word-wrap: normal;
+  overflow: visible;
+}
+
+.preview > .previewArea > .previewText code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+}

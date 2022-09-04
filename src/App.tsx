@@ -1,8 +1,17 @@
+import { EditorProvider } from './context';
+import { Header, Container, Footer } from './components';
+
+import './styles/app.css';
+
 function App() {
   return (
-    <div>
-      <textarea onChange={(e) => console.log(e.target.value)} rows={5} />
-    </div>
+    <EditorProvider>
+      <div className="App">
+        <Header />
+        <Container />
+        <Footer />
+      </div>
+    </EditorProvider>
   );
 }
 

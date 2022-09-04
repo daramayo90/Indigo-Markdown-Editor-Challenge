@@ -1,0 +1,30 @@
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  background-color: #444;
+  z-index: 1001;
+}
+
+#footer > .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer > .copyright > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer > .copyright > a > img {
+  width: 60%;
+}
