@@ -40,3 +40,11 @@ This is a regular stripped down [Create React App](https://create-react-app.dev)
 
 To submit your solution please create a **private** repository on GitHub, upload your code, and
 invite [@mrloh](https://github.com/mrloh/) as a collaborator.
+
+# Solution Provided
+
+- Preloaded data using Context Provider
+- Auto-generate line numbers every time the 'enter' key is pressed
+- Ability to use 'tab' key in the markdown editor
+- Styles given to Markdown and Preview components
+- Project organized in corresponding folders
